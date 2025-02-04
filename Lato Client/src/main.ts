@@ -1,23 +1,40 @@
 import { PersonService } from "./PersonService.js";
+import { Student } from "./Student.js";
 
 // Creazione di un'istanza del servizio
 const personService = new PersonService();
 
-// Funzione per recuperare e visualizzare tutte le persone
-async function fetchAndDisplayPeople() {
-    try {
-        // Recupera le persone trasformate dal servizio
-        const people = await personService.fetchPeople();
-        
-        // Visualizza i dettagli di ciascuna persona
-        people.forEach((person) => {
-            console.log(person.getDetails());
-        });
+async function testOperations() {
 
-    } catch (error) {
-        console.error("Errore durante il recupero delle persone:", error);
-    }
+
+    // Recupero di tutte le persone
+    const people = await personService.getPeople();
+    people.forEach(person => console.log(person.getDetails()));
+
+
+    // // Recupero una persona per ID
+    // const person = await personService.getPersonById('id-della-persona');
+    // if (person) {
+    //     console.log(person.getDetails());
+    // }
+
+    // // Aggiornamento dei dati di una persona
+    // if (person) {
+    //     const updatedPerson = new Student(person.id, 'Giovanni', 'Verdi', new Date('1999-05-20'), 'Studenti');
+    //     await personService.updatePerson(person.id, updatedPerson);
+    // }
+
+    // // Aggiornamento dell'email
+    // if (person) {
+    //     await personService.updatePersonEmail(person.id, 'giovanni.verdi@nuovoemail.com');
+    // }
+
+    // // Eliminazione di una persona
+    // if (person) {
+    //     await personService.deletePerson(person.id);
+    // }
 }
 
-// Esegui la funzione per recuperare e visualizzare le persone
-fetchAndDisplayPeople();
+// Esegui le operazioni di test
+testOperations();
+
