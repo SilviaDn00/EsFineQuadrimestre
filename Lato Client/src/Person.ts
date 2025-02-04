@@ -18,4 +18,4 @@ export abstract class Person {
 
     abstract getDetails(): string;
 
-} //prova prova prova
+}
