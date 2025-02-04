@@ -1,0 +1,32 @@
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\appsettings.json
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Lato Server.exe
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Lato Server.deps.json
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Lato Server.runtimeconfig.json
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Lato Server.dll
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Lato Server.pdb
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.csproj.AssemblyReference.cache
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.AssemblyInfoInputs.cache
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.AssemblyInfo.cs
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.csproj.CoreCompileInputs.cache
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\staticwebassets\msbuild.Lato Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Lato Server.props
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Lato Server.props
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Lato Server.props
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\scopedcss\bundle\Lato Server.styles.css
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Ser.24BEBECF.Up2Date
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.dll
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\refint\Lato Server.dll
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.pdb
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.genruntimeconfig.cache
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\ref\Lato Server.dll

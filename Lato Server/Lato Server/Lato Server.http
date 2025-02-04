@@ -1,0 +1,6 @@
+@Lato_Server_HostAddress = http://localhost:5223
+
+GET {{Lato_Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
