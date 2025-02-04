@@ -1,11 +1,11 @@
 export abstract class Person {
-    id: number;
+    id: string;
     firstName: string;
     lastName: string;
     dateOfBirth: Date;
     domain: string;
 
-    constructor(id: number, FirstName: string, LastName: string, dateOfBirth: Date, domain: string) {
+    constructor(id: string, FirstName: string, LastName: string, dateOfBirth: Date, domain: string) {
         this.id = id;
         this.firstName = FirstName;
         this.lastName = LastName;
