@@ -6,7 +6,7 @@ It uses C# as backend and Typescript/Javascript as frontend.
 The system supports CRUD (Create, Read, Update, Delete) operations on Person objects, with two specific categories: Students and Teachers.
 
 Clone the repository 
-git clone 
+git clone https://github.com/SilviaDn00/EsFineQuadrimestre.git
 
 HOW TO USE:
 -Run Lato Server first, it will open swagger.
