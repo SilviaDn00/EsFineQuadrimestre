@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|solutionrelative:lato server\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|c:\\users\\aula bari\\desktop\\test fine quadrimestre silvia\\lato server\\lato server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|solutionrelative:lato server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|c:\\users\\aula bari\\desktop\\test fine quadrimestre silvia\\lato server\\lato server\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|solutionrelative:lato server\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|c:\\users\\aula bari\\desktop\\test fine quadrimestre silvia\\lato server\\lato server\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|solutionrelative:lato server\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|c:\\users\\aula bari\\desktop\\test fine quadrimestre silvia\\lato server\\lato server\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35F2B6A9-F466-4244-8E57-699A38002ACB}|Lato Server\\Lato Server.csproj|solutionrelative:lato server\\persondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aula Bari\\Desktop\\Test Fine Quadrimestre Silvia\\Lato Server\\Lato Server\\Program.cs",
-              "RelativeDocumentMoniker": "Lato Server\\Program.cs",
-              "ToolTip": "C:\\Users\\Aula Bari\\Desktop\\Test Fine Quadrimestre Silvia\\Lato Server\\Lato Server\\Program.cs",
-              "RelativeToolTip": "Lato Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T16:18:29.47Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -48,13 +32,13 @@
               "RelativeDocumentMoniker": "Lato Server\\Person.cs",
               "ToolTip": "C:\\Users\\Aula Bari\\Desktop\\Test Fine Quadrimestre Silvia\\Lato Server\\Lato Server\\Person.cs",
               "RelativeToolTip": "Lato Server\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T11:23:08.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PersonData.cs",
               "DocumentMoniker": "C:\\Users\\Aula Bari\\Desktop\\Test Fine Quadrimestre Silvia\\Lato Server\\Lato Server\\PersonData.cs",
               "RelativeDocumentMoniker": "Lato Server\\PersonData.cs",
@@ -72,7 +56,7 @@
               "RelativeDocumentMoniker": "Lato Server\\Controllers\\PersonController.cs",
               "ToolTip": "C:\\Users\\Aula Bari\\Desktop\\Test Fine Quadrimestre Silvia\\Lato Server\\Lato Server\\Controllers\\PersonController.cs",
               "RelativeToolTip": "Lato Server\\Controllers\\PersonController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T11:30:01.353Z",
               "EditorCaption": ""

@@ -3,6 +3,29 @@ import { Teacher } from "./Teacher.js";
 
 export class PersonService {
 
+    // Metodo per creare una persona
+    async createPerson(person: Student | Teacher): Promise<void> {
+        try {
+            const response = await fetch('http://localhost:5223/api/person', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(person),
+            });
+
+            if (response.ok) {
+                const newPerson = await response.json();
+                console.log(`Nuova persona creata: ${newPerson.firstName} ${newPerson.lastName}`);
+            } else {
+                console.error('Errore nella creazione della persona');
+            }
+        } catch (error) {
+            console.error('Errore durante la creazione della persona', error);
+        }
+    }
+
+
     // Metodo per recuperare e trasformare i dati delle persone
     async getPeople(): Promise<(Student | Teacher)[]> {
         try {
@@ -33,31 +56,10 @@ export class PersonService {
         }
     }
 
-    // Metodo per creare una persona
-    async createPerson(person: Student | Teacher): Promise<void> {
-        try {
-            const response = await fetch('http://localhost:5223/api/person', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(person),
-            });
-
-            if (response.ok) {
-                const newPerson = await response.json();
-                console.log(`Nuova persona creata: ${newPerson.firstName} ${newPerson.lastName}`);
-            } else {
-                console.error('Errore nella creazione della persona');
-            }
-        } catch (error) {
-            console.error('Errore durante la creazione della persona', error);
-        }
-    }
 
     async getPersonById(id: string): Promise<Student | Teacher | null> {
         try {
-            const response = await fetch('http://localhost:5223/api/person/e12e4f3c-4957-4d31-a2c2-5ee444bad514');
+            const response = await fetch(`http://localhost:5223/api/person/${id}`);
 
             if (response.ok) {
                 const personData = await response.json();
@@ -80,7 +82,7 @@ export class PersonService {
     // Metodo per aggiornare i dati di una persona
     async updatePerson(id: string, updatedPerson: Student | Teacher): Promise<void> {
         try {
-            const response = await fetch(`http://localhost:5223/api/person/e12e4f3c-4957-4d31-a2c2-5ee444bad514`, {
+            const response = await fetch(`http://localhost:5223/api/person/${id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -102,7 +104,7 @@ export class PersonService {
     // Metodo per aggiornare l'email di una persona
     async updatePersonEmail(id: string, newEmail: string): Promise<void> {
         try {
-            const response = await fetch(`http://localhost:5223/api/person/email{id}`, {
+            const response = await fetch(`http://localhost:5223/api/person/email${id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',

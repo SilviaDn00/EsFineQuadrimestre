@@ -6,6 +6,17 @@ const personService = new PersonService();
 
 async function testOperations() {
 
+    const newStudent = new Student(
+        '', // L'ID può essere lasciato vuoto se viene generato dal server
+        'Nicolas', // Nome
+        'Fortunello', // Cognome
+        new Date('2000-01-01'), // Data di nascita
+        'Studenti' // Dominio
+    );
+
+    // Chiamata per creare la persona
+    await personService.createPerson(newStudent);
+
 
     // Recupero di tutte le persone
     const people = await personService.getPeople();
@@ -13,9 +24,9 @@ async function testOperations() {
 
 
     // Recupero una persona per ID
-    const person = await personService.getPersonById('id-della-persona');
+    const person = await personService.getPersonById('2c35d33e-cc85-45b0-8bcb-4933d4bd3d0a');
     if (person) {
-        console.log(person.getDetails());
+        console.log("Ricerca tramite ID: ", person.getDetails());
     }
 
     // Aggiornamento dei dati di una persona
@@ -26,7 +37,7 @@ async function testOperations() {
 
     // Aggiornamento dell'email
     if (person) {
-        await personService.updatePersonEmail(person.id, 'giovanni.verdi@nuovoemail.com');
+        await personService.updatePersonEmail(person.id, 'nuovaemail@nuovoemail.com');
     }
 
     // Eliminazione di una persona

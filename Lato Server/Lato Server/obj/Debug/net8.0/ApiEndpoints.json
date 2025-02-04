@@ -2,7 +2,7 @@
   {
     "ContainingType": "Lato_Server.Controllers.PersonController",
     "Method": "GetPeople",
-    "RelativePath": "api/Person",
+    "RelativePath": "api/person",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "Lato_Server.Controllers.PersonController",
     "Method": "CreatePerson",
-    "RelativePath": "api/Person",
+    "RelativePath": "api/person",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -48,7 +48,7 @@
   {
     "ContainingType": "Lato_Server.Controllers.PersonController",
     "Method": "GetPerson",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/person/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -74,7 +74,7 @@
   {
     "ContainingType": "Lato_Server.Controllers.PersonController",
     "Method": "UpdatePerson",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/person/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -105,7 +105,7 @@
   {
     "ContainingType": "Lato_Server.Controllers.PersonController",
     "Method": "DeletePerson",
-    "RelativePath": "api/Person/{id}",
+    "RelativePath": "api/person/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -121,7 +121,7 @@
   {
     "ContainingType": "Lato_Server.Controllers.PersonController",
     "Method": "UpdateEmail",
-    "RelativePath": "api/Person/email{id}",
+    "RelativePath": "api/person/email{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,

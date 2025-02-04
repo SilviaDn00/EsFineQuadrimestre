@@ -10,23 +10,41 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const PersonService_js_1 = require("./PersonService.js");
+const Student_js_1 = require("./Student.js");
 // Creazione di un'istanza del servizio
 const personService = new PersonService_js_1.PersonService();
-// Funzione per recuperare e visualizzare tutte le persone
-function fetchAndDisplayPeople() {
+function testOperations() {
     return __awaiter(this, void 0, void 0, function* () {
-        try {
-            // Recupera le persone trasformate dal servizio
-            const people = yield personService.fetchPeople();
-            // Visualizza i dettagli di ciascuna persona
-            people.forEach((person) => {
-                console.log(person.getDetails());
-            });
+        const newStudent = new Student_js_1.Student('', // L'ID può essere lasciato vuoto se viene generato dal server
+        'Nicolas', // Nome
+        'Fortunello', // Cognome
+        new Date('2000-01-01'), // Data di nascita
+        'Studenti' // Dominio
+        );
+        // Chiamata per creare la persona
+        yield personService.createPerson(newStudent);
+        // Recupero di tutte le persone
+        const people = yield personService.getPeople();
+        people.forEach(person => console.log(person.getDetails()));
+        // Recupero una persona per ID
+        const person = yield personService.getPersonById('2c35d33e-cc85-45b0-8bcb-4933d4bd3d0a');
+        if (person) {
+            console.log("Ricerca tramite ID: ", person.getDetails());
         }
-        catch (error) {
-            console.error("Errore durante il recupero delle persone:", error);
+        // Aggiornamento dei dati di una persona
+        if (person) {
+            const updatedPerson = new Student_js_1.Student(person.id, 'Giovanni', 'Verdi', new Date('1999-05-20'), 'Studenti');
+            yield personService.updatePerson(person.id, updatedPerson);
+        }
+        // Aggiornamento dell'email
+        if (person) {
+            yield personService.updatePersonEmail(person.id, 'nuovaemail@nuovoemail.com');
+        }
+        // Eliminazione di una persona
+        if (person) {
+            yield personService.deletePerson(person.id);
         }
     });
 }
-// Esegui la funzione per recuperare e visualizzare le persone
-fetchAndDisplayPeople();
+// Esegui le operazioni di test
+testOperations();
