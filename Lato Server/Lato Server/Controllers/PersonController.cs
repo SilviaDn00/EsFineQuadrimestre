@@ -2,7 +2,7 @@
 
 namespace Lato_Server.Controllers
 {
-    [Route("api/[controller]")]  //[controller] viene sostituito da Person (PersonController)
+    [Route("api/person")] 
     [ApiController]
 
     public class PersonController : ControllerBase
@@ -41,9 +41,6 @@ namespace Lato_Server.Controllers
         {
             // Genera un nuovo ID univoco per la persona
             newPerson.Id = Guid.NewGuid();
-
-            // Calcola l'email automaticamente (se non è già stata calcolata)
-            newPerson.Email = $"{newPerson.FirstName[0].ToString().ToLower()}{newPerson.LastName.ToLower()}@{newPerson.Domain.ToLower()}.com";
 
             // Aggiungi la persona alla lista in memoria
             peopleList.Add(newPerson);
