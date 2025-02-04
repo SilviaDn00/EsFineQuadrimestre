@@ -30,3 +30,4 @@ C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server
 C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.pdb
 C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.genruntimeconfig.cache
 C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\ref\Lato Server.dll
+C:\Users\Aula Bari\Desktop\Test Fine Quadrimestre Silvia\Lato Server\Lato Server\obj\Debug\net8.0\Lato Server.sourcelink.json
